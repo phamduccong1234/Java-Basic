@@ -5,15 +5,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		//doEx3();
-//		Switch_Ex1.doSwitch();
-//		System.out.println(Switch_Ex2.getLocator("id", "password"));
-//		Loops_Ex2.sumAndAverage();
-//		Loops_Ex3.sumAndAverageEx3(); 
-//		Loops_Ex4.sumAndAverageEx4();
-//		Loops_Ex5.sumAndAverageEx5();
-//		Loops_Ex6.sumOfTheSquares();
-		Loops_Ex7.harmonicSum();
+		doEx3();
 	}
 
 	public static void doEx3() {
@@ -24,7 +16,7 @@ public class Main {
 			System.out.print("Enter a positive integer or -1 to exit: ");
 			num = sc.nextInt();
 
-			if (MagicSum_Method_Ex3.checkNumber(num) == true) {
+			if (Homework_JavaBasic.checkNumber(num) == true) {
 				sum += num;
 			} 
 			
